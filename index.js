@@ -2,7 +2,7 @@
 const express = require('express')
 const { decodeGuildExperiment } = require('discord-experiments')
 const app = express()
-const port = 3000
+const port = 8080
 const axios = require('axios')
 
 app.get('/', (req, res) => {
